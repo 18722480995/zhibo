@@ -1,0 +1,95 @@
+{
+  "libVersion": "1.3",
+  "appid": "wx83c0bc6684c48ce8",
+  "projectname": "%E9%B8%BF%E9%80%94%E9%92%A2%E9%93%81%E8%B5%84%E8%AE%AF",
+  "setting": {
+    "urlCheck": true,
+    "es6": true,
+    "enhance": false,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": false,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": true,
+    "useApiHook": true,
+    "useApiHostProcess": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": false,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "userConfirmedBundleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "id": 0,
+          "name": "zh_tcwq/pages/logs/logs",
+          "pathName": "zh_tcwq/pages/logs/logs",
+          "query": "id=2",
+          "scene": null
+        },
+        {
+          "name": "zh_tcwq/pages/sellerinfo/sellerinfo",
+          "pathName": "zh_tcwq/pages/sellerinfo/sellerinfo",
+          "query": "id=13&store_id=13&id_x=4&user_id=11&tiao=true&logo=http://tmp/UqyxAifMRUi1ab011b97c3a33243c62fd7a9f7d23710.jpg",
+          "scene": 1007
+        },
+        {
+          "name": "zh_tcwq/pages/index/index",
+          "pathName": "zh_tcwq/pages/index/index",
+          "query": "userid=\"11\"",
+          "scene": 1007
+        },
+        {
+          "name": "zh_tcwq/pages/spzx/spzxinfo",
+          "pathName": "zh_tcwq/pages/spzx/spzxinfo",
+          "query": "spid=2",
+          "scene": null
+        },
+        {
+          "name": "zh_tcwq/pages/spzx/spzxinfo",
+          "pathName": "zh_tcwq/pages/spzx/spzxinfo",
+          "query": "spid=2",
+          "scene": 1047
+        },
+        {
+          "name": "zh_tcwq/pages/redbag/merchant",
+          "pathName": "zh_tcwq/pages/redbag/merchant",
+          "query": "id=13",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

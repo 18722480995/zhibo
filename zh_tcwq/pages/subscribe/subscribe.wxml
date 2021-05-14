@@ -1,0 +1,14 @@
+<view class="page">
+        <view class="article-list">
+            <view class="flex-row article-item" wx:for="{{list}}" wx:key="{{index}}" wx:if='{{item.title}}'>
+                <view class="flex-grow-1 flex-y-center title">
+                  {{item.title}}
+                </view>
+                <view class="flex-grow-0 flex-x-center flex-y-center">
+                  <view class="pointer" wx:if="{{item.is_dy==1}}" style="background:gray">已订阅</view>
+                  <view class="pointer" wx:else bindtap="dy" data-index="{{index}}" style="background:{{System.color}}">订阅</view>
+                </view>
+            </view>
+        </view>
+</view>
+ 
